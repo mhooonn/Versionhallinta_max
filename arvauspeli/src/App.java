@@ -4,11 +4,11 @@ public class App {
     public static void main(String[] args) throws Exception {
          
         // adding variables
-     Scanner in = new Scanner (System.in);
-        String name = "";       
-        int counter = 0;
+    Scanner in = new Scanner (System.in);
+    String name = "";       
+    int counter = 0;
         
-        while (!name.equalsIgnoreCase("Emma")) {
+    while (!name.equalsIgnoreCase("Emma")) {
         System.out.println("Guess my name (type stop to exit)");        
         name = in.nextLine();
                    
@@ -17,12 +17,12 @@ public class App {
         }
         counter++;
         if (name.equalsIgnoreCase("Emma")) {
-            System.out.println("Congratulations!");
+        System.out.println("Congratulations!");
                 break; 
         }
-        }
+    }
 
-        System.out.println("You guessed " + counter + " times.");
+    System.out.println("You guessed " + counter + " times.");
 
         
     
