@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
          
-        
+        // adding variables
      Scanner in = new Scanner (System.in);
         String name = "";       
         int counter = 0;
@@ -27,5 +27,5 @@ public class App {
         
     
     
-    }
+    }// end of main
 }
