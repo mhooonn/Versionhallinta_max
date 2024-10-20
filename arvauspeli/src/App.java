@@ -8,6 +8,7 @@ public class App {
     String name = "";       
     int counter = 0;
         
+        // loop to guess name
     while (!name.equalsIgnoreCase("Emma")) {
         System.out.println("Guess my name (type stop to exit)");        
         name = in.nextLine();
@@ -20,12 +21,8 @@ public class App {
         System.out.println("Congratulations!");
                 break; 
         }
-    }
-
-    System.out.println("You guessed " + counter + " times.");
-
+    } // end of loop
         
-    
-    
+    System.out.println("You guessed " + counter + " times.");
     }// end of main
 }
